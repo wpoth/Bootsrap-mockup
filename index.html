@@ -12,15 +12,19 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    body {
+      background: url('/img/counts-bg.png')no-repeat center center fixed;
+      background-size: cover;
+    }
+  </style>
   <title>Techie</title>
 </head>
 
 <body>
-  <img src="/img/counts-bg.png" class="position-absolute w-100 h-100" alt="Background Image" />
   <!-- header -->
-  <header class="container-fluid p-0 position-relative">
-    
-    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent mb-5">
+  <header class="container-fluid p-0">
+    <nav class="navbar navbar-expand-lg navbar-dark mb-5">
       <div class="container">
         <a class="navbar-brand fs-3" href="#">TECHIE</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -68,33 +72,31 @@
         </div>
       </div>
     </nav>
-    <div class="container-fluid text-white position-relative z-index-1 mt-3">
-      <div class="container">
-        <div class="row align-items-center">
-          <!-- Text Column -->
-          <div class="col-md-6">
-            <div class="p-4">
-              <h1 class="text-light mb-4">Better Digital Experience <span class="d-block">With Techie</span></h1>
-              <p class="text-white opacity-50">We are a team of talented designers making websites with bootstrap</p>
-              <div class="fw-semibold px-25 text-center">
-                <a class="nav-link border rounded border-white-subtle text-light" href="#">Get Started</a>
-              </div>
+    <section id="hero" class="d-flex justify-content-center align-items-center mb-5">
+
+      <div class="container-fluid text-white">
+        <div class="row justify-content-center">
+          <div class="col-xl-5 col-lg-6 pt-3 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+            <h1>Bettter Digital Experience With Techie</h1>
+            <h2 class="opacity-75 fs-4">We are team of talented designers making websites with Bootstrap</h2>
+            <div class="fw-bolder">
+              <a class="text-light border rounded border-white-subtle p-1 nav-link w-25 text-center" href="#">Get Started</a>
             </div>
           </div>
-          <!-- Image Column -->
-          <div class="col-md-6">
-            <img src="/img/hero-img.png" alt="Hero Image" class="img-fluid p-5" />
+          <div class="col-xl-4 col-lg-6 order-1 order-lg-2">
+            <img src="img/hero-img.png" class="img-fluid p-1" alt="">
           </div>
         </div>
       </div>
-    </div>
+  
+    </section>
   </header>
 
   <!-- main content -->
-  <main class="container-fluid mt-5 py-4">
-    <div class="container ms-5">
+  <main class="container-fluid mt-5 p-0">
+    <div class="container-fluid m-0 bg-white d-flex flex-row-reverse justify-content-center">
       <div class="row">
-        <div class="col-md-6 d-flex flex-column">
+        <div class="col-md-6 d-flex flex-column my-5">
           <h1 class="fw-bold">Voluptatem dignissimos provident<span class="d-block">quasi corporis</span></h1>
           <p class="fst-italic text-body-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
             eiusmod
@@ -107,18 +109,17 @@
             dolor sit amet<span class="d-block">consectetur adipisicing elit. Adipisci quisquam rem iusto odit?
               Aliquid,</span><span class="d-block">vitae.</span>
           </p>
-        <div class="bg-light">
-          
-          <button class="btn bg-primary mt-3 bg-transparent">
-            <span class="text-light">Read More</span>
-          </button>
-        </div>
-         
+          <div>
+            <button class="btn bg-dark mt-3">
+              <span class="text-light">Read More</span>
+            </button>
+          </div>
         </div>
         <div class="col-md-6 d-flex align-items-center">
           <img src="/img/about.jpg" alt="Description of about image" class="img-fluid p-3">
         </div>
       </div>
+
     </div>
   </main>
 </body>
