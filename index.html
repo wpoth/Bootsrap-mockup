@@ -23,7 +23,7 @@
   <title>Techie</title>
 </head>
 
-<body>
+<body class="overflow-x-hidden">
   <!-- header -->
   <header class="container-fluid p-0">
     <nav class="navbar navbar-expand-lg navbar-dark mb-5 sticky-top">
@@ -383,17 +383,26 @@
       </div>
     </section>
     <!-- Testimonials section -->
-    <div class="container-fluid bg-body-secondary mt-5 p-0">
+   
+
+
+    <div class="container-fluid bg-body-tertiary mt-5 p-0">
       <div></div>
       <h3 class="border-bottom border-3 border-primary text-center">
         Testimonials
       </h3>
     </div>
-
+    <div class="container-fluid d-flex justify-content-center m-5">
+      <div class="alert alert-danger alert-dismissible fade show w-25" role="alert">
+        <strong class="text-center">This part isnt finished</strong>
+        <h6 class="mt-2"> The others are though! check them out.</h6>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+    </div>
     <!-- Portfolio section -->
 
 
-    <div class="container aos-init aos-animate" data-aos="fade-up">
+    <div class="container">
 
       <div class="section-title">
         <h2>Portfolio</h2>
@@ -515,20 +524,23 @@
       </div>
     </div>
     <!-- card-section -->
-    <div class="container-fluid bg-body-secondary">
+    <div class="container-fluid bg-body-tertiary">
       <div class="container">
         <div class="section-title mt-5">
           <h2 class="text-center border-bottom border-primary border-2">Pricing</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+          <p class="text-center">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum
+            quidem. Sit sint
             consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
             in iste officiis commodi quidem hic quas.</p>
         </div>
-        <div class="row">
-          <div class="col-lg-3 col-md-6e shadow bg-white">
+        <d iv class="container-fluid d-flex align-items-center rounded">
+          <div class="col-lg-3 col-md-6 mx-2 shadow bg-white text-center">
             <div class="box">
-              <h3>Free</h3>
-              <h4><sup>$</sup>0<span> / month</span></h4>
-              <ul>
+              <h3 class="text-center bg-white bg-body-tertiary p-3">Free</h3>
+              <h4 class="d-flex justify-content-center"><sup class="text-primary d-flex align-items-center">$</sup>
+                <p class="text-primary">0</p><span> / month</span>
+              </h4>
+              <ul class="list-unstyled">
                 <li>Aida dere</li>
                 <li>Nec feugiat nisl</li>
                 <li>Nulla at volutpat dola</li>
@@ -540,11 +552,14 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 mt-4 mt-md-0  bg-white">
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0 mx-2 bg-white shadow text-center rounded">
             <div class="box featured">
-              <h3>Business</h3>
-              <h4><sup>$</sup>19<span> / month</span></h4>
-              <ul>
+              <h3 class="text-center bg-primary text-light p-3">Business</h3>
+              <h4 class="d-flex text-center justify-content-center"><sup
+                  class="text-primary d-flex align-items-center">$</sup>
+                <p class="text-primary">19</p><span> / month</span>
+              </h4>
+              <ul class="list-unstyled">
                 <li>Aida dere</li>
                 <li>Nec feugiat nisl</li>
                 <li>Nulla at volutpat dola</li>
@@ -556,11 +571,13 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0 shadow bg-white">
+          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0 mx-2 shadow bg-white text-center rounded">
             <div class="box">
-              <h3>Developer</h3>
-              <h4><sup>$</sup>29<span> / month</span></h4>
-              <ul>
+              <h3 class="text-center bg-body-tertiary p-3">Developer</h3>
+              <h4 class="d-flex justify-content-center"><sup class="text-primary d-flex align-items-center">$</sup>
+                <p class="text-primary">29</p><span> / month</span>
+              </h4>
+              <ul class="list-unstyled">
                 <li>Aida dere</li>
                 <li>Nec feugiat nisl</li>
                 <li>Nulla at volutpat dola</li>
@@ -572,12 +589,13 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0 shadow border-rounded bg-white">
+          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0 mx-2 shadow border-rounded bg-white text-center rounded">
             <div class="box">
-              <span class="advanced">Advanced</span>
-              <h3>Ultimate</h3>
-              <h4><sup>$</sup>49<span> / month</span></h4>
-              <ul>
+              <h3 class="text-center bg-body-tertiary p-3">Ultimate</h3>
+              <h4 class="d-flex justify-content-center"><sup class="text-primary d-flex align-items-center">$</sup>
+                <p class="text-primary">49</p><span> / month</span>
+              </h4>
+              <ul class="list-unstyled">
                 <li>Aida dere</li>
                 <li>Nec feugiat nisl</li>
                 <li>Nulla at volutpat dola</li>
@@ -589,9 +607,9 @@
               </div>
             </div>
           </div>
-        </div>
       </div>
     </div>
+  
   </main>
 </body>
 
